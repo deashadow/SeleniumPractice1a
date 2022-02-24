@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: com.deashadow.seleniumtests.GoogleTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 30.102 s <<< FAILURE! - in com.deashadow.seleniumtests.GoogleTest
+com.deashadow.seleniumtests.GoogleTest.googleElement  Time elapsed: 28.308 s  <<< ERROR!
+org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=98.0.4758.82)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-8S7Q1A3', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6c546306df57fdac4995d5ed567adf22, isElementDisplayed {id=0b89190a-7fd5-4523-a809-b06bfc2fd782}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\RONREN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62149}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62149/devtoo..., se:cdpVersion: 98.0.4758.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (6c546306df57fdac4995d5ed567adf22)] -> name: q]
+Session ID: 6c546306df57fdac4995d5ed567adf22
+	at com.deashadow.seleniumtests.GoogleTest.googleElement(GoogleTest.java:39)
+

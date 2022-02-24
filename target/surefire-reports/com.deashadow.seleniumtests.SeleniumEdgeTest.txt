@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.deashadow.seleniumtests.SeleniumEdgeTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 199.947 s <<< FAILURE! - in com.deashadow.seleniumtests.SeleniumEdgeTest
+com.deashadow.seleniumtests.SeleniumEdgeTest.scheduleBeeTest  Time elapsed: 51.746 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: MicrosoftEdge=98.0.1108.56)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-8S7Q1A3', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [8253593d3eff8dfe0e10919861d5f47b, get {url=https://schedule-bee.com}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 98.0.1108.56, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:62679}, msedge: {msedgedriverVersion: 98.0.1108.56 (9a336a18eae89..., userDataDir: C:\Users\RONREN~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62679/devtoo..., se:cdpVersion: 98.0.1108.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8253593d3eff8dfe0e10919861d5f47b
+	at com.deashadow.seleniumtests.SeleniumEdgeTest.scheduleBeeTest(SeleniumEdgeTest.java:45)
+
