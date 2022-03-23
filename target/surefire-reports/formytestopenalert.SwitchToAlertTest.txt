@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: formytestopenalert.SwitchToAlertTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 31.601 s - in formytestopenalert.SwitchToAlertTest

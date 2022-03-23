@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: formytestautocomplete.AutocompleteTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 46.701 s <<< FAILURE! - in formytestautocomplete.AutocompleteTest
+formytestautocomplete.AutocompleteTest.AutofillTest  Time elapsed: 46.698 s  <<< ERROR!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=99.0.4844.51)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-8S7Q1A3', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1972276aa1984c254ee3df0a716a1f4a, clickElement {id=ce9af8c8-7669-408b-bd5d-0ae774cc62d2}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\RONREN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53582}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53582/devtoo..., se:cdpVersion: 99.0.4844.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (1972276aa1984c254ee3df0a716a1f4a)] -> class: pac-container]
+Session ID: 1972276aa1984c254ee3df0a716a1f4a
+	at formytestautocomplete.AutocompleteTest.AutofillTest(AutocompleteTest.java:54)
+
