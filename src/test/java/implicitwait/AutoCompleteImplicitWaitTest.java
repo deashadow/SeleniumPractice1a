@@ -11,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
-
+import java.util.concurrent.TimeUnit;
 
 
 public class AutoCompleteImplicitWaitTest {
@@ -39,7 +39,7 @@ public class AutoCompleteImplicitWaitTest {
         driver.get("https://formy-project.herokuapp.com/autocomplete");
         //3. Find element //4. check the state   //must use "Duration.ofSeconds"
         //This is an Explicit Wait!!!!
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        WebDriverWait wait = new WebDriverWait(driver, 5);
         //find the text input element by its 'name'
         WebElement autocomplete = wait.until(
              //   ExpectedConditions.visibilityOfElementLocated();
@@ -49,7 +49,7 @@ public class AutoCompleteImplicitWaitTest {
         //enter your input--the entire 'address' !!
         autocomplete.sendKeys("1125 SE 32nd St, Cape Coral, Fl 33904");
         //This is alternative to Thread.sleep!!! Implicit!!  no exception...
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+       // driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         //locate 'drop down' to submit input--- this className is 'pac-item'
         WebElement autocompleteResult = driver.findElement(By.className("pac-container"));
         autocompleteResult.click();

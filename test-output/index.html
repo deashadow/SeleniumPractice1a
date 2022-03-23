@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_Suite" class="navigator-link">
+              <span class="suite-name border-failed">Default Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_Suite" class="navigator-link ">
+                    <span>C:\Users\Ron Rendessy Realtor\AppData\Local\JetBrains\IntelliJIdea2021.3\temp-testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method, 1 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_Suite" class="hide-methods failed suite-Default_Suite"> (hide)</a> <!-- hide-methods failed suite-Default_Suite -->
+                      <a href="#" panel-name="suite-Default_Suite" class="show-methods failed suite-Default_Suite"> (show)</a> <!-- show-methods failed suite-Default_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="schedulebee.FDMGroupAllyTest" class="method navigator-link" hash-for-method="fdmGroupAllyTest">fdmGroupAllyTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_Suite" class="panel Default_Suite">
+          <div class="suite-Default_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">schedulebee.FDMGroupAllyTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="fdmGroupAllyTest">
+                  </a> <!-- fdmGroupAllyTest -->
+                  <span class="method-name">fdmGroupAllyTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: Found 6 accessibility violations:
+1) Elements must have sufficient color contrast: https://dequeuniversity.com/rules/axe/3.5/color-contrast?application=axeAPI
+  a) [&quot;.pt-3 &gt; h2&quot;]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.39 (foreground color: #1daded, background color: #f8f8f8, font size: 45.0pt (60px), font weight: normal). Expected contrast ratio of 3:1
+
+
+  b) [&quot;p:nth-child(1) &gt; a[target=\&quot;_blank\&quot;][rel=\&quot;noopener\&quot;]&quot;]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.54 (foreground color: #1daded, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  c) [&quot;.wp-block-column:nth-child(1) &gt; ul &gt; li:nth-child(1) &gt; a&quot;]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.54 (foreground color: #1daded, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  d) [&quot;.wp-block-column:nth-child(1) &gt; ul &gt; li:nth-child(2) &gt; a&quot;]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.54 (foreground color: #1daded, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  e) [&quot;.wp-block-column:nth-child(1) &gt; ul &gt; li:nth-child(3) &gt; a&quot;]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.54 (foreground color: #1daded, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  f) [&quot;.wp-block-column:nth-child(1) &gt; ul &gt; li:nth-child(4) &gt; a&quot;]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.54 (foreground color: #1daded, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  g) [&quot;.wp-block-column:nth-child(1) &gt; ul &gt; li:nth-child(5) &gt; a&quot;]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.54 (foreground color: #1daded, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  h) [&quot;.wp-block-column:nth-child(1) &gt; ul &gt; li:nth-child(6) &gt; a&quot;]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.54 (foreground color: #1daded, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  i) [&quot;.wp-block-column:nth-child(1) &gt; ul &gt; li:nth-child(7) &gt; a&quot;]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.54 (foreground color: #1daded, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  j) [&quot;.pt-5&quot;]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.54 (foreground color: #1daded, background color: #ffffff, font size: 45.0pt (60px), font weight: normal). Expected contrast ratio of 3:1
+
+
+  k) [&quot;.text-block &gt; h2&quot;]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.39 (foreground color: #1daded, background color: #f8f8f8, font size: 45.0pt (60px), font weight: normal). Expected contrast ratio of 3:1
+
+
+  l) [&quot;#section_9 &gt; .container-lrg &gt; h2&quot;]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.54 (foreground color: #1daded, background color: #ffffff, font size: 45.0pt (60px), font weight: normal). Expected contrast ratio of 3:1
+
+
+  m) [&quot;#section_10 &gt; div &gt; h2&quot;]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.54 (foreground color: #1daded, background color: #ffffff, font size: 45.0pt (60px), font weight: normal). Expected contrast ratio of 3:1
+
+
+  n) [&quot;.col-xl-4.col-md-6:nth-child(1) &gt; .fdm-post-teaser &gt; .fdm-post-teaser-inner[title=\&quot;FDM\\ post\&quot;][itemprop=\&quot;url\&quot;] &gt; .teaser-text &gt; h3&quot;]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.54 (foreground color: #1daded, background color: #ffffff, font size: 21.0pt (28px), font weight: normal). Expected contrast ratio of 3:1
+
+
+  o) [&quot;.col-xl-4.col-md-6:nth-child(2) &gt; .fdm-post-teaser &gt; .fdm-post-teaser-inner[title=\&quot;FDM\\ post\&quot;][itemprop=\&quot;url\&quot;] &gt; .teaser-text &gt; h3&quot;]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.54 (foreground color: #1daded, background color: #ffffff, font size: 21.0pt (28px), font weight: normal). Expected contrast ratio of 3:1
+
+
+  p) [&quot;.col-xl-4.col-md-6:nth-child(3) &gt; .fdm-post-teaser &gt; .fdm-post-teaser-inner[title=\&quot;FDM\\ post\&quot;][itemprop=\&quot;url\&quot;] &gt; .teaser-text &gt; h3&quot;]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.54 (foreground color: #1daded, background color: #ffffff, font size: 21.0pt (28px), font weight: normal). Expected contrast ratio of 3:1
+
+
+  q) [&quot;.loadmore &gt; p:nth-child(1)&quot;]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.54 (foreground color: #1daded, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1
+
+
+2) id attribute value must be unique: https://dequeuniversity.com/rules/axe/3.5/duplicate-id?application=axeAPI
+  a) [&quot;script[src=\&quot;\\/\\/js\\.hs-scripts\\.com\\/4411419\\.js\&quot;][rel=\&quot;preconnect\&quot;][async=\&quot;\&quot;]&quot;]
+    Fix any of the following:
+      Document has multiple static elements with the same id attribute
+
+
+3) Heading levels should only increase by one: https://dequeuniversity.com/rules/axe/3.5/heading-order?application=axeAPI
+  a) [&quot;.fdm-techskills &gt; h3&quot;]
+    Fix any of the following:
+      Heading order invalid
+
+
+  b) [&quot;h6:nth-child(1)&quot;]
+    Fix any of the following:
+      Heading order invalid
+
+
+4) Images must have alternate text: https://dequeuniversity.com/rules/axe/3.5/image-alt?application=axeAPI
+  a) [&quot;a[target=\&quot;_blank\&quot;][rel=\&quot;noopener\&quot;] &gt; img&quot;]
+    Fix any of the following:
+      Element does not have an alt attribute
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element has no title attribute or the title attribute is empty
+      Element&apos;s default semantics were not overridden with role=&quot;presentation&quot;
+      Element&apos;s default semantics were not overridden with role=&quot;none&quot;
+
+
+  b) [&quot;.wp-block-column.text-center &gt; img&quot;]
+    Fix any of the following:
+      Element does not have an alt attribute
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element has no title attribute or the title attribute is empty
+      Element&apos;s default semantics were not overridden with role=&quot;presentation&quot;
+      Element&apos;s default semantics were not overridden with role=&quot;none&quot;
+
+
+5) Links must have discernible text: https://dequeuniversity.com/rules/axe/3.5/link-name?application=axeAPI
+  a) [&quot;.navbar-brand&quot;]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element&apos;s default semantics were not overridden with role=&quot;presentation&quot;
+      Element&apos;s default semantics were not overridden with role=&quot;none&quot;
+
+
+  b) [&quot;h3 &gt; a[target=\&quot;_blank\&quot;][rel=\&quot;noopener\&quot;]&quot;]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element&apos;s default semantics were not overridden with role=&quot;presentation&quot;
+      Element&apos;s default semantics were not overridden with role=&quot;none&quot;
+
+
+6) All page content must be contained by landmarks: https://dequeuniversity.com/rules/axe/3.5/region?application=axeAPI
+  a) [&quot;.acceptcookies&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  b) [&quot;.open-button&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  c) [&quot;h6:nth-child(1)&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  d) [&quot;#add_btn &gt; .sr-only&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  e) [&quot;.IS&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  f) [&quot;#minus_btn &gt; .sr-only&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  g) [&quot;.DS&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  h) [&quot;#reset &gt; .sr-only&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  i) [&quot;.RS&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  j) [&quot;.underline &gt; .sr-only&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  k) [&quot;.UL&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  l) [&quot;#underline_links &gt; .sr-only&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  m) [&quot;.HL&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  n) [&quot;h6:nth-child(3)&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  o) [&quot;.contrast&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+ expected [true] but found [false]
+	at schedulebee.FDMGroupAllyTest.fdmGroupAllyTest(FDMGroupAllyTest.java:42)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_Suite-class-failed -->
+        </div> <!-- panel Default_Suite -->
+        <div panel-name="test-xml-Default_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Ron Rendessy Realtor\AppData\Local\JetBrains\IntelliJIdea2021.3\temp-testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;run.bat&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;schedulebee.FDMGroupAllyTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- run.bat --&gt;
+&lt;/suite&gt; &lt;!-- Default Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">run.bat (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_Suite');
+function tableData_Default_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'fdmGroupAllyTest')
+data.setCell(0, 2, 'schedulebee.FDMGroupAllyTest')
+data.setCell(0, 3, 4756);
+window.suiteTableData['Default_Suite']= { tableData: data, tableDiv: 'times-div-Default_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <div id="times-div-Default_Suite">
+              </div> <!-- times-div-Default_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">schedulebee.FDMGroupAllyTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">fdmGroupAllyTest</span>
+                <span class="method-start">28114 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">32919 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

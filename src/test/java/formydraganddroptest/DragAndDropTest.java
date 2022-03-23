@@ -38,7 +38,7 @@ public class DragAndDropTest {
         //2. navigate to the URL
         driver.get("https://formy-project.herokuapp.com/dragdrop");
         //3. Find element //4. check the state   //must use "Duration.ofSeconds"
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        WebDriverWait wait = new WebDriverWait(driver, 5);
         //find the text input element by its 'id'
         WebElement image = wait.until(
                 ExpectedConditions.presenceOfElementLocated(By.id("image")));
@@ -48,6 +48,8 @@ public class DragAndDropTest {
         Actions actions = new Actions(driver);
         //this will simulate an actual 'drag and drop'
         actions.dragAndDrop(image, box).build().perform();
+        //click-pause-release
+     // actions.clickAndHold(image).pause(100).release().build().perform();
 
     }
 }

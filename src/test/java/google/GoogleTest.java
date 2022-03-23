@@ -32,7 +32,7 @@ public class GoogleTest {
         //2. navigate to the URL
         driver.get("https://www.google.com/");
         //3. Find element //4. check the state   //must use "Duration.ofSeconds"
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        WebDriverWait wait = new WebDriverWait(driver, 5);
        //find the text input element by its 'name'
         WebElement element = wait.until(
                 ExpectedConditions.presenceOfElementLocated(By.name("q")));

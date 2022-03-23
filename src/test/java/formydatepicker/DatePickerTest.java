@@ -37,8 +37,8 @@ public class DatePickerTest {
         // WebDriver driver = new ChromeDriver();
         //2. navigate to the URL
         driver.get("https://formy-project.herokuapp.com/datepicker");
-        //3. Find element //4. check the state   //must use "Duration.ofSeconds"
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        //3. Find element //4. check the state   //must use "Duration.ofSeconds"--Not Working
+        WebDriverWait wait = new WebDriverWait(driver, 5);
         //find the text input element by its 'id'
         WebElement dateField = wait.until(
                 ExpectedConditions.presenceOfElementLocated(By.id("datepicker")));

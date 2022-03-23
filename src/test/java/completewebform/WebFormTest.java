@@ -12,9 +12,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
+import java.time.Duration;
+import static org.junit.Assert.*;
+
 
 
 public class WebFormTest {
@@ -41,7 +44,7 @@ public class WebFormTest {
         driver.get("https://formy-project.herokuapp.com/form");
         //3. Find element //4. check the state   //must use "Duration.ofSeconds"
         //This is an Explicit Wait!!!!
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(8));
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         //find the text input element by its 'name'
         driver.findElement(By.id("first-name")).sendKeys("Tony");
 
@@ -62,7 +65,7 @@ public class WebFormTest {
         driver.findElement(By.cssSelector(".btn.btn-lg.btn-primary")).click();
 
         //This is an Explicit Wait!!!
-        WebDriverWait wait1 = new WebDriverWait(driver, Duration.ofSeconds(10));
+        WebDriverWait wait1 = new WebDriverWait(driver, 10);
         //This is an Explicit Wait!!!
         WebElement alert = wait1.until(ExpectedConditions.visibilityOfElementLocated
                 (By.className("alert")));

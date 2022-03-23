@@ -33,7 +33,7 @@ public class ScrollToElementTest {
         //2. navigate to the URL
         driver.get("https://formy-project.herokuapp.com/scroll");
         //3. Find element //4. check the state   //must use "Duration.ofSeconds"
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        WebDriverWait wait = new WebDriverWait(driver, 5);
         //find the text input element by its 'name'
         WebElement name = wait.until(
                 ExpectedConditions.presenceOfElementLocated(By.id("name")));

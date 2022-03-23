@@ -39,7 +39,7 @@ public class AutoCompleteExplicitWaitTest {
         driver.get("https://formy-project.herokuapp.com/autocomplete");
         //3. Find element //4. check the state   //must use "Duration.ofSeconds"
         //This is an Explicit Wait!!!!
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(8));
+        WebDriverWait wait = new WebDriverWait(driver, 8);
         //find the text input element by its 'name'
         WebElement autocomplete = wait.until(
                 //   ExpectedConditions.visibilityOfElementLocated();

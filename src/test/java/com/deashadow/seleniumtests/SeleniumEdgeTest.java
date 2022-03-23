@@ -3,6 +3,7 @@ package com.deashadow.seleniumtests;
 
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
@@ -11,8 +12,8 @@ import org.openqa.selenium.edge.EdgeDriver;
 
 public class SeleniumEdgeTest {
     //This method will run once before all of the tests in our class
-    @BeforeClass
-    public static void setupClass() {
+    @Before
+    public  void setupClass() {
         WebDriverManager.edgedriver().setup();
     }
     @Test

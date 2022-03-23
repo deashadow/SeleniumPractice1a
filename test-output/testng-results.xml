@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-22T18:42:51 EDT" name="Default Suite" finished-at="2022-03-22T18:43:25 EDT" duration-ms="34240">
+    <groups>
+    </groups>
+    <test started-at="2022-03-22T18:42:51 EDT" name="run.bat" finished-at="2022-03-22T18:43:25 EDT" duration-ms="34240">
+      <class name="schedulebee.FDMGroupAllyTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:schedulebee.FDMGroupAllyTest@17f7cd29]" started-at="2022-03-22T18:42:51 EDT" name="setup" finished-at="2022-03-22T18:43:19 EDT" duration-ms="28113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="fdmGroupAllyTest()[pri:0, instance:schedulebee.FDMGroupAllyTest@17f7cd29]" started-at="2022-03-22T18:43:19 EDT" name="fdmGroupAllyTest" finished-at="2022-03-22T18:43:24 EDT" duration-ms="4756" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Found 6 accessibility violations:
+1) Elements must have sufficient color contrast: https://dequeuniversity.com/rules/axe/3.5/color-contrast?application=axeAPI
+  a) [".pt-3 > h2"]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.39 (foreground color: #1daded, background color: #f8f8f8, font size: 45.0pt (60px), font weight: normal). Expected contrast ratio of 3:1
+
+
+  b) ["p:nth-child(1) > a[target=\"_blank\"][rel=\"noopener\"]"]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.54 (foreground color: #1daded, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  c) [".wp-block-column:nth-child(1) > ul > li:nth-child(1) > a"]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.54 (foreground color: #1daded, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  d) [".wp-block-column:nth-child(1) > ul > li:nth-child(2) > a"]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.54 (foreground color: #1daded, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  e) [".wp-block-column:nth-child(1) > ul > li:nth-child(3) > a"]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.54 (foreground color: #1daded, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  f) [".wp-block-column:nth-child(1) > ul > li:nth-child(4) > a"]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.54 (foreground color: #1daded, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  g) [".wp-block-column:nth-child(1) > ul > li:nth-child(5) > a"]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.54 (foreground color: #1daded, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  h) [".wp-block-column:nth-child(1) > ul > li:nth-child(6) > a"]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.54 (foreground color: #1daded, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  i) [".wp-block-column:nth-child(1) > ul > li:nth-child(7) > a"]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.54 (foreground color: #1daded, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  j) [".pt-5"]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.54 (foreground color: #1daded, background color: #ffffff, font size: 45.0pt (60px), font weight: normal). Expected contrast ratio of 3:1
+
+
+  k) [".text-block > h2"]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.39 (foreground color: #1daded, background color: #f8f8f8, font size: 45.0pt (60px), font weight: normal). Expected contrast ratio of 3:1
+
+
+  l) ["#section_9 > .container-lrg > h2"]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.54 (foreground color: #1daded, background color: #ffffff, font size: 45.0pt (60px), font weight: normal). Expected contrast ratio of 3:1
+
+
+  m) ["#section_10 > div > h2"]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.54 (foreground color: #1daded, background color: #ffffff, font size: 45.0pt (60px), font weight: normal). Expected contrast ratio of 3:1
+
+
+  n) [".col-xl-4.col-md-6:nth-child(1) > .fdm-post-teaser > .fdm-post-teaser-inner[title=\"FDM\\ post\"][itemprop=\"url\"] > .teaser-text > h3"]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.54 (foreground color: #1daded, background color: #ffffff, font size: 21.0pt (28px), font weight: normal). Expected contrast ratio of 3:1
+
+
+  o) [".col-xl-4.col-md-6:nth-child(2) > .fdm-post-teaser > .fdm-post-teaser-inner[title=\"FDM\\ post\"][itemprop=\"url\"] > .teaser-text > h3"]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.54 (foreground color: #1daded, background color: #ffffff, font size: 21.0pt (28px), font weight: normal). Expected contrast ratio of 3:1
+
+
+  p) [".col-xl-4.col-md-6:nth-child(3) > .fdm-post-teaser > .fdm-post-teaser-inner[title=\"FDM\\ post\"][itemprop=\"url\"] > .teaser-text > h3"]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.54 (foreground color: #1daded, background color: #ffffff, font size: 21.0pt (28px), font weight: normal). Expected contrast ratio of 3:1
+
+
+  q) [".loadmore > p:nth-child(1)"]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.54 (foreground color: #1daded, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1
+
+
+2) id attribute value must be unique: https://dequeuniversity.com/rules/axe/3.5/duplicate-id?application=axeAPI
+  a) ["script[src=\"\\/\\/js\\.hs-scripts\\.com\\/4411419\\.js\"][rel=\"preconnect\"][async=\"\"]"]
+    Fix any of the following:
+      Document has multiple static elements with the same id attribute
+
+
+3) Heading levels should only increase by one: https://dequeuniversity.com/rules/axe/3.5/heading-order?application=axeAPI
+  a) [".fdm-techskills > h3"]
+    Fix any of the following:
+      Heading order invalid
+
+
+  b) ["h6:nth-child(1)"]
+    Fix any of the following:
+      Heading order invalid
+
+
+4) Images must have alternate text: https://dequeuniversity.com/rules/axe/3.5/image-alt?application=axeAPI
+  a) ["a[target=\"_blank\"][rel=\"noopener\"] > img"]
+    Fix any of the following:
+      Element does not have an alt attribute
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element has no title attribute or the title attribute is empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  b) [".wp-block-column.text-center > img"]
+    Fix any of the following:
+      Element does not have an alt attribute
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element has no title attribute or the title attribute is empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+5) Links must have discernible text: https://dequeuniversity.com/rules/axe/3.5/link-name?application=axeAPI
+  a) [".navbar-brand"]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  b) ["h3 > a[target=\"_blank\"][rel=\"noopener\"]"]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+6) All page content must be contained by landmarks: https://dequeuniversity.com/rules/axe/3.5/region?application=axeAPI
+  a) [".acceptcookies"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  b) [".open-button"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  c) ["h6:nth-child(1)"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  d) ["#add_btn > .sr-only"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  e) [".IS"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  f) ["#minus_btn > .sr-only"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  g) [".DS"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  h) ["#reset > .sr-only"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  i) [".RS"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  j) [".underline > .sr-only"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  k) [".UL"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  l) ["#underline_links > .sr-only"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  m) [".HL"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  n) ["h6:nth-child(3)"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  o) [".contrast"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+ expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Found 6 accessibility violations:
+1) Elements must have sufficient color contrast: https://dequeuniversity.com/rules/axe/3.5/color-contrast?application=axeAPI
+  a) [".pt-3 > h2"]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.39 (foreground color: #1daded, background color: #f8f8f8, font size: 45.0pt (60px), font weight: normal). Expected contrast ratio of 3:1
+
+
+  b) ["p:nth-child(1) > a[target=\"_blank\"][rel=\"noopener\"]"]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.54 (foreground color: #1daded, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  c) [".wp-block-column:nth-child(1) > ul > li:nth-child(1) > a"]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.54 (foreground color: #1daded, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  d) [".wp-block-column:nth-child(1) > ul > li:nth-child(2) > a"]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.54 (foreground color: #1daded, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  e) [".wp-block-column:nth-child(1) > ul > li:nth-child(3) > a"]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.54 (foreground color: #1daded, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  f) [".wp-block-column:nth-child(1) > ul > li:nth-child(4) > a"]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.54 (foreground color: #1daded, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  g) [".wp-block-column:nth-child(1) > ul > li:nth-child(5) > a"]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.54 (foreground color: #1daded, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  h) [".wp-block-column:nth-child(1) > ul > li:nth-child(6) > a"]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.54 (foreground color: #1daded, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  i) [".wp-block-column:nth-child(1) > ul > li:nth-child(7) > a"]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.54 (foreground color: #1daded, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  j) [".pt-5"]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.54 (foreground color: #1daded, background color: #ffffff, font size: 45.0pt (60px), font weight: normal). Expected contrast ratio of 3:1
+
+
+  k) [".text-block > h2"]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.39 (foreground color: #1daded, background color: #f8f8f8, font size: 45.0pt (60px), font weight: normal). Expected contrast ratio of 3:1
+
+
+  l) ["#section_9 > .container-lrg > h2"]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.54 (foreground color: #1daded, background color: #ffffff, font size: 45.0pt (60px), font weight: normal). Expected contrast ratio of 3:1
+
+
+  m) ["#section_10 > div > h2"]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.54 (foreground color: #1daded, background color: #ffffff, font size: 45.0pt (60px), font weight: normal). Expected contrast ratio of 3:1
+
+
+  n) [".col-xl-4.col-md-6:nth-child(1) > .fdm-post-teaser > .fdm-post-teaser-inner[title=\"FDM\\ post\"][itemprop=\"url\"] > .teaser-text > h3"]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.54 (foreground color: #1daded, background color: #ffffff, font size: 21.0pt (28px), font weight: normal). Expected contrast ratio of 3:1
+
+
+  o) [".col-xl-4.col-md-6:nth-child(2) > .fdm-post-teaser > .fdm-post-teaser-inner[title=\"FDM\\ post\"][itemprop=\"url\"] > .teaser-text > h3"]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.54 (foreground color: #1daded, background color: #ffffff, font size: 21.0pt (28px), font weight: normal). Expected contrast ratio of 3:1
+
+
+  p) [".col-xl-4.col-md-6:nth-child(3) > .fdm-post-teaser > .fdm-post-teaser-inner[title=\"FDM\\ post\"][itemprop=\"url\"] > .teaser-text > h3"]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.54 (foreground color: #1daded, background color: #ffffff, font size: 21.0pt (28px), font weight: normal). Expected contrast ratio of 3:1
+
+
+  q) [".loadmore > p:nth-child(1)"]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.54 (foreground color: #1daded, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1
+
+
+2) id attribute value must be unique: https://dequeuniversity.com/rules/axe/3.5/duplicate-id?application=axeAPI
+  a) ["script[src=\"\\/\\/js\\.hs-scripts\\.com\\/4411419\\.js\"][rel=\"preconnect\"][async=\"\"]"]
+    Fix any of the following:
+      Document has multiple static elements with the same id attribute
+
+
+3) Heading levels should only increase by one: https://dequeuniversity.com/rules/axe/3.5/heading-order?application=axeAPI
+  a) [".fdm-techskills > h3"]
+    Fix any of the following:
+      Heading order invalid
+
+
+  b) ["h6:nth-child(1)"]
+    Fix any of the following:
+      Heading order invalid
+
+
+4) Images must have alternate text: https://dequeuniversity.com/rules/axe/3.5/image-alt?application=axeAPI
+  a) ["a[target=\"_blank\"][rel=\"noopener\"] > img"]
+    Fix any of the following:
+      Element does not have an alt attribute
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element has no title attribute or the title attribute is empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  b) [".wp-block-column.text-center > img"]
+    Fix any of the following:
+      Element does not have an alt attribute
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element has no title attribute or the title attribute is empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+5) Links must have discernible text: https://dequeuniversity.com/rules/axe/3.5/link-name?application=axeAPI
+  a) [".navbar-brand"]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  b) ["h3 > a[target=\"_blank\"][rel=\"noopener\"]"]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+6) All page content must be contained by landmarks: https://dequeuniversity.com/rules/axe/3.5/region?application=axeAPI
+  a) [".acceptcookies"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  b) [".open-button"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  c) ["h6:nth-child(1)"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  d) ["#add_btn > .sr-only"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  e) [".IS"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  f) ["#minus_btn > .sr-only"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  g) [".DS"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  h) ["#reset > .sr-only"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  i) [".RS"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  j) [".underline > .sr-only"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  k) [".UL"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  l) ["#underline_links > .sr-only"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  m) [".HL"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  n) ["h6:nth-child(3)"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  o) [".contrast"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+ expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at schedulebee.FDMGroupAllyTest.fdmGroupAllyTest(FDMGroupAllyTest.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fdmGroupAllyTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:schedulebee.FDMGroupAllyTest@17f7cd29]" started-at="2022-03-22T18:43:24 EDT" name="tearDown" finished-at="2022-03-22T18:43:25 EDT" duration-ms="1215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- schedulebee.FDMGroupAllyTest -->
+    </test> <!-- run.bat -->
+  </suite> <!-- Default Suite -->
+</testng-results>
